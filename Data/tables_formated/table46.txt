@@ -1,0 +1,42 @@
+Class of Equipment and Proof-Test Specifications:
+
+Class of Equipment 00:
+  - Proof-test voltage rms: 2,500 V
+  - Maximum proof-test current:
+    - 280-mm (11-in) glove: 8 mA
+    - 360-mm (14-in) glove: 12 mA
+
+Class of Equipment 0:
+  - Proof-test voltage rms: 5,000 V
+  - Maximum proof-test current:
+    - 280-mm (11-in) glove: 8 mA
+    - 360-mm (14-in) glove: 12 mA
+    - 410-mm (16-in) glove: 14 mA
+    - 460-mm (18-in) glove: 16 mA
+
+Class of Equipment 1:
+  - Proof-test voltage rms: 10,000 V
+  - Maximum proof-test current:
+    - 360-mm (14-in) glove: 14 mA
+    - 410-mm (16-in) glove: 16 mA
+    - 460-mm (18-in) glove: 18 mA
+
+Class of Equipment 2:
+  - Proof-test voltage rms: 20,000 V
+  - Maximum proof-test current:
+    - 360-mm (14-in) glove: 16 mA
+    - 410-mm (16-in) glove: 18 mA
+    - 460-mm (18-in) glove: 20 mA
+
+Class of Equipment 3:
+  - Proof-test voltage rms: 30,000 V
+  - Maximum proof-test current:
+    - 360-mm (14-in) glove: 18 mA
+    - 410-mm (16-in) glove: 20 mA
+    - 460-mm (18-in) glove: 22 mA
+
+Class of Equipment 4:
+  - Proof-test voltage rms: 40,000 V
+  - Maximum proof-test current:
+    - 410-mm (16-in) glove: 22 mA
+    - 460-mm (18-in) glove: 24 mA

@@ -1,0 +1,42 @@
+Operations: Shielded metal arc welding:
+    - Electrode size 1/32 in: Less than 3, Arc current: Less than 60, Minimum * protective shade: 7
+    - Electrode size 1/32 in: 3-5, Arc current: 60–160, Minimum * protective shade: 8
+    - Electrode size 1/32 in: 5-8 than 3, Arc current: 160–250, Minimum * protective shade: 10
+    - Electrode size 1/32 in: More than 8, Arc current: 250–550, Minimum * protective shade: 11
+
+Operations: Gas metal arc welding and flux cored arc welding:
+  - Arc current: Less than 60, Minimum * protective shade: 7
+  - Arc current: 60–160, Minimum * protective shade: 10
+  - Arc current: 160–250, Minimum * protective shade: 10
+  - Arc current: 250–500, Minimum * protective shade: 10
+
+Operations: Gas Tungsten arc welding:
+  - Arc current: Less than 50, Minimum * protective shade: 8
+  - Arc current: 50–150, Minimum * protective shade: 8
+  - Arc current: 150–500, Minimum * protective shade: 10
+
+Operations: Air carbon :
+  - Electrode size 1/32 in: (Light), Arc current: Less than 500, Minimum * protective shade: 10
+
+Operations: Arc cutting:
+  - Electrode size 1/32 in: (Heavy), Arc current: 500–1000, Minimum * protective shade: 11
+
+Operations: Plasma arc welding:
+  - Arc current: Less than 20, Minimum * protective shade: 6
+  - Arc current: 20–100, Minimum * protective shade: 8
+  - Arc current: 100–400, Minimum * protective shade: 10
+  - Arc current: 400–800, Minimum * protective shade: 11
+
+Operations: Plasma arc cutting:
+  - Electrode size 1/32 in: (light)**, Arc current: Less than 300, Minimum * protective shade: 8
+  - Electrode size 1/32 in: (medium)**, Arc current: 300–400, Minimum * protective shade: 9
+  - Electrode size 1/32 in: (heavy)**, Arc current: 400–800, Minimum * protective shade: 10
+
+Operations: Torch brazing:
+  - Minimum * protective shade: 3
+
+Operations: Torch soldering:
+  - Minimum * protective shade: 2
+
+Operations: Carbon arc welding:
+  - Minimum * protective shade: 14

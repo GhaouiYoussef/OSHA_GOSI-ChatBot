@@ -1,0 +1,35 @@
+Chemical Group: Water miscible substances, weak acids/alkalis:
+  - Suitable Glove Materials:
+  - Natural rubber: ✓
+  - Nitrile rubber: ✓
+  - Neoprene: ✓
+  - PVC: ✓
+
+Chemical Group: Oils:
+  - Suitable Glove Materials:
+    - Nitrile rubber: ✓
+
+Chemical Group: Chlorinated hydrocarbons:
+  - Suitable Glove Materials:
+    - Viton: ✓
+
+Chemical Group: Aromatic solvents:
+  - Suitable Glove Materials:
+    - Viton: ✓
+
+Chemical Group: Aliphatic solvents:
+  - Suitable Glove Materials:
+    - Nitrile rubber: ✓
+    - Viton: ✓
+
+Chemical Group: Strong acids:
+  - Suitable Glove Materials:
+    - Butyl: ✓
+
+Chemical Group: Strong alkalis:
+  - Suitable Glove Materials:
+    - Neoprene: ✓
+
+Chemical Group: PCBs:
+  - Suitable Glove Materials:
+    - Viton: ✓

@@ -1,0 +1,45 @@
+Filter Type and Class: AI:
+  - Test Gas: Cyclohexane, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 70
+  - Test Gas: Chlore, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 20
+
+Filter Type and Class: B1:
+  - Test Gas: Hydrogen sulfide, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 40
+  - Test Gas: Hydrogen cyanide, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 25
+
+Filter Type and Class: El:
+  - Test Gas: Sulfur dioxide, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 20
+
+Filter Type and Class: KI:
+  - Test Gas: Ammoniac, Concentration (PPM): 1000, Minimum Breakdown Time (Min): 50
+
+Filter Type and Class: A2:
+  - Test Gas: Cyclohexane, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 35
+  - Test Gas: Chlore, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 20
+
+Filter Type and Class: B2:
+  - Test Gas: Hydrogen sulfide, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 40
+  - Test Gas: Hydrogen cyanide, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 25
+
+Filter Type and Class: E2:
+  - Test Gas: Sulfur dioxide, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 20
+
+Filter Type and Class: K2:
+  - Test Gas: Ammoniac, Concentration (PPM): 5000, Minimum Breakdown Time (Min): 40
+
+Filter Type and Class: A3:
+  - Test Gas: Cyclohexane, Concentration (PPM): 8000, Minimum Breakdown Time (Min): 65
+  - Test Gas: Chlore, Concentration (PPM): 10000, Minimum Breakdown Time (Min): 30
+
+Filter Type and Class: B3:
+  - Test Gas: Hydrogen sulfide, Concentration (PPM): 10000, Minimum Breakdown Time (Min): 60
+  - Test Gas: Hydrogen cyanide, Concentration (PPM): 10000, Minimum Breakdown Time (Min): 35
+
+Filter Type and Class: E3:
+  - Test Gas: Sulfur dioxide, Concentration (PPM): 10000, Minimum Breakdown Time (Min): 30
+
+Filter Type and Class: K3:
+  - Test Gas: Ammoniac, Concentration (PPM): 10000, Minimum Breakdown Time (Min): 60
+
+Filter Type and Class: AX:
+  - Test Gas: Dimethylether, Concentration (PPM): 500, Minimum Breakdown Time (Min): 50
+  - Test Gas: Isobutane, Concentration (PPM): 2500, Minimum Breakdown Time (Min): 50

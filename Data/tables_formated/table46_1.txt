@@ -1,0 +1,14 @@
+Class of Equipment: 00:
+  - Proof-test voltage: 10,000
+
+Class of Equipment: 0:
+  - Proof-test voltage: 20,000
+
+Class of Equipment: 1:
+  - Proof-test voltage: 40,000
+
+Class of Equipment: 2:
+  - Proof-test voltage: 50,000
+
+Class of Equipment: 3:
+  - Proof-test voltage: 60,000

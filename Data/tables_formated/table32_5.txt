@@ -1,0 +1,11 @@
+Filter Classes and Descriptions: N95, N99, N100:
+  - Description: Filters at least 95%, 99%, 99.97% of airborne particles. Not resistant to oil.
+
+Filter Classes and Descriptions: R95, R99, R100:
+  - Description: Filters at least 95%, 99%, 99.97% of airborne particles. Somewhat resistant to oil.
+
+Filter Classes and Descriptions: P95, P99, P100:
+  - Description: Filters at least 95%, 99%, 99.97% of airborne particles. Strongly resistant to oil.
+
+Filter Classes and Descriptions: HE (High Efficiency Particulate Air):
+  - Description: Filters at least 99.97% of airborne particles. For use on PAPRs only. PAPRs use only HE filters.

@@ -1,0 +1,19 @@
+Oxygen Deficient Atmospheres (%O2) for which the employer may rely on atmosphere-supplying respirators:
+
+- Altitude: Less than 3,001 ft.
+  - Oxygen levels: 16.0-19.5%
+
+- Altitude: 3,001-4,000 ft.
+  - Oxygen levels: 16.4-19.5%
+
+- Altitude: 4,001-5,000 ft.
+  - Oxygen levels: 17.1-19.5%
+
+- Altitude: 5,001-6,000 ft.
+  - Oxygen levels: 17.8-19.5%
+
+- Altitude: 6,001-7,000 ft.
+  - Oxygen levels: 18.5-19.5%
+
+- Altitude: 7,001-8,000 ft.
+  - Oxygen levels: 19.3-19.5%

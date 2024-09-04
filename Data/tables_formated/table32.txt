@@ -1,0 +1,14 @@
+Mask Class: FFP1:
+  - Filter penetration limit: Filters at least 80% of airborne particles (at 95 L/min air flow)
+  - Inward leakage: <22%
+  - Typical elastic band: Yellow
+
+Mask Class: FFP2:
+  - Filter penetration limit: Filters at least 94% of airborne particles (at 95 L/min air flow)
+  - Inward leakage: <8%
+  - Typical elastic band: Blue or White
+
+Mask Class: FFP3:
+  - Filter penetration limit: Filters at least 99% of airborne particles (at 95 L/min air flow)
+  - Inward leakage: <2%
+  - Typical elastic band: Red

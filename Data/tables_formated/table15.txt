@@ -1,0 +1,47 @@
+Type of respirator: Air-Purifying Respirator:
+  - Quarter mask: 5
+  - Half mask: 310
+  - Full facepiece: 50
+  - Helmet/hood: Not specified
+  - Loose-fitting facepiece: Not specified
+
+Type of respirator: Powered Air-Purifying Respirator (PAPR):
+  - Quarter mask: Not specified
+  - Half mask: 50
+  - Full facepiece: 1,000
+  - Helmet/hood: 425/1,000
+  - Loose-fitting facepiece: 25
+
+Type of respirator: Supplied-Air Respirator (SAR) or Airline Respirator:
+  Demand mode:
+    - Quarter mask: Not specified
+    - Half mask: 10
+    - Full facepiece: 50
+    - Helmet/hood: Not specified
+    - Loose-fitting facepiece: Not specified
+  Continuous flow mode:
+    - Quarter mask: Not specified
+    - Half mask: 50
+    - Full facepiece: 1,000
+    - Helmet/hood: 425/1,000
+    - Loose-fitting facepiece: 25
+  Pressure-demand or other positive-pressure mode:
+    - Quarter mask: Not specified
+    - Half mask: 50
+    - Full facepiece: 1,000
+    - Helmet/hood: Not specified
+    - Loose-fitting facepiece: Not specified
+
+Type of respirator: Self-Contained Breathing Apparatus (SCBA):
+  Demand mode:
+    - Quarter mask: Not specified
+    - Half mask: 10
+    - Full facepiece: 50
+    - Helmet/hood: 50
+    - Loose-fitting facepiece: Not specified
+  Pressure-demand or other positive-pressure mode (e.g., open/closed circuit):
+    - Quarter mask: Not specified
+    - Half mask: Not specified
+    - Full facepiece: 10,000
+    - Helmet/hood: 10,000
+    - Loose-fitting facepiece: Not specified

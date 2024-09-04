@@ -1,0 +1,27 @@
+Operations: Gas Welding:
+  - Plate Thickness: Light
+    - Inches: Under 1/8
+    - Millimeters: Under 3.2
+    - Minimum Protective Shade: 4
+  - Plate Thickness: Medium
+    - Inches: 1/8 to ½
+    - Millimeters: 3.2 to 12.7
+    - Minimum Protective Shade: 5
+  - Plate Thickness: Heavy
+    - Inches: Over ½
+    - Millimeters: Over 12.7
+    - Minimum Protective Shade: 6
+
+Operations: Oxygen Cutting:
+  - Plate Thickness: Light
+    - Inches: Under 1
+    - Millimeters: Under 25
+    - Minimum Protective Shade: 3
+  - Plate Thickness: Medium
+    - Inches: 1 to 6
+    - Millimeters: 25 to 150
+    - Minimum Protective Shade: 4
+  - Plate Thickness: Heavy
+    - Inches: Over 6
+    - Millimeters: Over 150
+    - Minimum Protective Shade: 5

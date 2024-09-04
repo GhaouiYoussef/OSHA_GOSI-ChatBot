@@ -1,0 +1,23 @@
+Safety Footwear Class: SB:
+  - Feature: Safety basic, 200-Joule Toe Protection, Oil Resistant outer sole. (Minimum Requirement)
+
+Safety Footwear Class: SBP:
+  - Feature: As SB plus Mid-Sole for penetration resistance.
+
+Safety Footwear Class: S1:
+  - Feature: As SB plus Anti-Static properties and fully enclosed Energy Absorbing heel area.
+
+Safety Footwear Class: S1P:
+  - Feature: As S1 plus Mid-Sole for penetration resistance.
+
+Safety Footwear Class: S2:
+  - Feature: As S1 plus resistance to Water Penetration and absorption.
+
+Safety Footwear Class: S3:
+  - Feature: As S2 plus Mid-Sole for penetration resistance and cleated outsole.
+
+Safety Footwear Class: S4:
+  - Feature: 200-Joule Toe Protection. All rubber or polymer construction (waterproof). Anti-Static properties, Energy Absorbing heel area.
+
+Safety Footwear Class: S5:
+  - Feature: As S4 plus Mid-Sole for penetration resistance and cleated outsole.

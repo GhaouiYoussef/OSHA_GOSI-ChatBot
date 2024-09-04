@@ -1,0 +1,14 @@
+Type of Equipement: Rubber Insulating Line Hose:
+  - When to test: Upon indication that insulating value is suspect and after repair.
+
+Type of Equipement: Rubber Insulating Covers:
+  - When to test: Upon indication that insulating value is suspect and after repair.
+
+Type of Equipement: Rubber Insulating Blankets:
+  - When to test: Before first issue and every 12 months thereafter; upon indication that insulating value is suspect; and after repair.
+
+Type of Equipement: Rubber Insulating Gloves:
+  - When to test: Before first issue and every 6 months thereafter; upon indication that insulating value is suspect; after repair; and after use without protectors.
+
+Type of Equipement: Rubber Insulating Sleeves:
+  - When to test: Before first issue and every 12 months thereafter; upon indication that insulating value is suspect; and after repair.

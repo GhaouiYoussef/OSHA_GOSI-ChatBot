@@ -1,0 +1,23 @@
+Class of Glove: Class 00:
+  - AC proof test: 38 mm (1.5 in)
+  - DC proof test: 38 mm (1.5 in)
+
+Class of Glove: Class 0:
+  - AC proof test: 38 mm (1.5 in)
+  - DC proof test: 38 mm (1.5 in)
+
+Class of Glove: Class 1:
+  - AC proof test: 38 mm (1.5 in)
+  - DC proof test: 51 mm (2.0 in)
+
+Class of Glove: Class 2:
+  - AC proof test: 64 mm (2.5 in)
+  - DC proof test: 76 mm (3.0 in)
+
+Class of Glove: Class 3:
+  - AC proof test: 89 mm (3.5 in)
+  - DC proof test: 102 mm (4.0 in)
+
+Class of Glove: Class 4:
+  - AC proof test: 127 mm (5.0 in)
+  - DC proof test: 153 mm (6.0 in)
