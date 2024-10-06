@@ -37,35 +37,74 @@ To set up the project locally, follow these steps:
 - **Python 3.8+**
 - **pip**
 - **Virtual Environment (recommended)**
+Here’s an improved version of the section with better formatting, consistent instructions, and clearer steps:
+
+---
 
 ### **Dependencies**
-Install all the dependencies by running:
+
+To install the necessary dependencies for this project, follow the instructions below.
 
 Key libraries include:
 - **PyMuPDF**: For text, table, and image extraction from PDFs.
-- **ChromaDB**: Vector database for data storage and retrieval.
+- **ChromaDB**: A vector database for data storage and retrieval.
 - **Transformers**: For model fine-tuning and inference.
 - **Gradio**: For building the web-based user interface.
 
-Copy this in Terminal (For Windows):
+#### Installation Steps :
+##### (For Windows):
+1. **Set up a virtual environment**:
+   ```bash
+   python -m venv venv
+   ```
 
-`python -m venv venv
-venv\Scripts\activate
-pip install torch
-pip install transformers
-pip install chromadb
-pip install termcolor
-pip install python-dotenv
-pip install gradio
-pip install accelerate>=0.26.0`
+2. **Activate the virtual environment**:
+   ```bash
+   venv\Scripts\activate
+   ```
+##### (For Linux/Mac):
+1. **Set up a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   ```
+
+2. **Activate the virtual environment**:
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. **Install the required libraries**:
+   ```bash
+   pip install torch
+   pip install transformers
+   pip install chromadb
+   pip install termcolor
+   pip install python-dotenv
+   pip install gradio
+   pip install "accelerate>=0.26.0"
+   ```
+
 ---
 
-## **Usage**
-`git clone https://github.com/GhaouiYoussef/OSHA_GOSI-ChatBot.git
-cd deploy
-python main-app.py`
-- PS: you need to use your hugging face token, and request access to the Gemma2 model
+### **Usage**
+
+1. Clone the repository and navigate to the `deploy` directory:
+   ```bash
+   git clone https://github.com/GhaouiYoussef/OSHA_GOSI-ChatBot.git
+   cd OSHA_GOSI-ChatBot/deploy
+   ```
+
+2. Run the main application:
+   ```bash
+   python main-app.py
+   ```
+
+**Note**: 
+- You will need your Hugging Face token and request access to the **Gemma2** model to run this application properly.
+
 ---
+
+This structure ensures the instructions are clear and precise, with good spacing and formatting for readability. Let me know if further improvements are needed!
 
 ## **Training and Fine-Tuning**
 
