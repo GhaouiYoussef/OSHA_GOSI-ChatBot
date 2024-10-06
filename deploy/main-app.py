@@ -14,6 +14,10 @@ from dotenv import load_dotenv
 import os
 import json
 
+# Load environment variables from .env file
+load_dotenv()
+HF_TOKEN = os.getenv("HF_TOKEN")
+
 # Load the config file
 with open('config_.json') as config_file:
     config = json.load(config_file)
@@ -25,9 +29,7 @@ Main_Chatbot_Prompt = config["Main_Chatbot_Prompt"]
 print('Reg_Agent_Prompt: ', Reg_Agent_Prompt)
 print('Main_Chatbot_Prompt: ', Main_Chatbot_Prompt)
 
-# Load environment variables from .env file
-load_dotenv()
-HF_TOKEN = os.getenv("HF_TOKEN")
+
 
 # Configure model and tokenizer
 bnb_config = BitsAndBytesConfig(
