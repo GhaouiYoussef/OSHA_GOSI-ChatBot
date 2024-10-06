@@ -13,7 +13,7 @@ The chatbot leverages **fine-tuned language models** and **Retrieval-Augmented G
 - **Multilingual Support**: Provides responses in both **English** and **Arabic**, catering to a wide audience in Saudi Arabia.
 - **Regulatory Query Handling**: Delivers accurate answers based on OSHA Saudi Arabia regulations, including personal protective equipment (PPE) guidelines.
 - **Table and Image Support**: Capable of extracting and interpreting information from **complex tables** and displaying **images** from the handbook.
-- **Mitigative Responses**: Provides appropriate mitigative answers for sensitive queries, such as those related to medical advice or life-threatening scenarios using my own tuned model `https://huggingface.co/GhaouiY/gemma-2-9b-it_SafeguardAI`.
+- **Mitigative Responses**: Provides appropriate mitigative answers for sensitive queries, such as those related to medical advice or life-threatening scenarios using **An AGENT that i built as layer** `https://huggingface.co/GhaouiY/gemma-2-9b-it_SafeguardAI`.
 - **Efficient Information Retrieval**: Utilizes **RAG** with **Dragon Retriever** for fast and relevant data retrieval.
 
 ---
