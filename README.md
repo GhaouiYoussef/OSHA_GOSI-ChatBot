@@ -1,7 +1,3 @@
-Here's a revised version of your **README** file with the addition of the **video demo** and **DFD (Data Flow Diagram)** section:
-
----
-
 # **OSHA Saudi Arabia Regulatory Chatbot**
 
 ## **Project Overview**
@@ -119,9 +115,10 @@ Synthetic QA data was generated using **ChatGPT-4 mini**, and the **Dragon Retri
 
 ## **Video Demo**
 
-To better understand the chatbot in action, check out the following video demo:
+![](demo.png)
+To better understand the chatbot in action, check out the following video demo on linkedin:
 
-[![Watch the Demo](Demo-GOSI-Chatbot.mp4)
+[![Watch the Demo](https://www.linkedin.com/posts/youssef-ghaoui-3a82a222a_poc-ai-machinelearning-activity-7239325187853221890-N7yb?utm_source=share&utm_medium=member_desktop)
 
 ---
 
