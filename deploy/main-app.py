@@ -10,23 +10,24 @@ from typing import List, cast
 from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel, BitsAndBytesConfig, TextStreamer
 import gradio as gr
+from dotenv import load_dotenv
+import os
+import json
+
+# Load the config file
+with open('config_.json') as config_file:
+    config = json.load(config_file)
+
+# Access the Reg_Agent_Prompt
+Reg_Agent_Prompt = config["Reg_Agent_Prompt"]
+Main_Chatbot_Prompt = config["Main_Chatbot_Prompt"]
+
+print('Reg_Agent_Prompt: ', Reg_Agent_Prompt)
+print('Main_Chatbot_Prompt: ', Main_Chatbot_Prompt)
 
 # Load environment variables from .env file
 load_dotenv()
-Reg_Agent_Prompt = os.getenv("Reg_Agent_Prompt")
-Main_Chatbot_Prompt = '''You are an AI assistant specialized in providing accurate, concise, and contextually relevant information from the Occupational Safety and Health Handbook of KSA. Your primary objective is to deliver organized, clear, and polite responses to user inquiries, incorporating basic physics and mathematics for necessary calculations. If the required information isn't available in the provided context, respectfully inform the user and refrain from guessing.
-Instructions:
-1. Comprehend the Query: Ensure a thorough understanding of the user's question. Identify key terms and any specific values provided, such as resistance (R) and current (I).
-2. Contextual Search: Search the contexts in order to find the potential equations to perform. ( For exemple, if you query talks about I and R, and the chunk talks about V, you should make the calculation base the answer to match the correct response from the result volatage with the one in the cintext)
-3. Calculation Steps: If calculations are needed, perform them step by step, only after confirming that no direct information is available. For instance, use Ohm’s Law (V = I * R) when appropriate values are provided.
-4. Clear Explanation: Present each calculation step clearly and concisely, explaining how each value was derived and its relevance to the user’s question.
-5. Verification: Cross-check the calculated results against the provided context to ensure accuracy and relevance.
-6. Complete Response: Provide a comprehensive answer that integrates both the calculated results and information directly from the context.
-7. Clarity and Brevity: Keep your response clear, concise, and free from unnecessary details to enhance user comprehension.
-8. Source Attribution: Reference the specific sections or pages of the Handbook used for each piece of information provided.
-9. Final Review: Conduct a final review of your response to ensure logical consistency, accuracy, and the inclusion of all necessary references.'''
-print('Reg_Agent_Prompt: ', Reg_Agent_Prompt)
-print('Main_Chatbot_Prompt: ', Main_Chatbot_Prompt)
+HF_TOKEN = os.getenv("HF_TOKEN")
 
 # Configure model and tokenizer
 bnb_config = BitsAndBytesConfig(
@@ -42,19 +43,19 @@ cache_dir = './DeployDATA/my_local_cache'
 model_id = "google/gemma-2-9b-it"#
 #"google/gemma-2-27b-it"#"YoussefPearls/gemma2_27_ppe_merged"
 # model_agent = AutoModelForCausalLM.from_pretrained(model_id, quantization_config=bnb_config, cache_dir =cache_dir, device_map="cuda" , torch_dtype=torch.bfloat16)#torch_dtype=torch.bfloat16,, quantization_config=bnb_config , device_map="auto")
-model_agent = AutoModelForCausalLM.from_pretrained(model_id,  cache_dir =cache_dir, device_map="cuda" , torch_dtype=torch.bfloat16)#torch_dtype=torch.bfloat16,, quantization_config=bnb_config , device_map="auto")
+model_agent = AutoModelForCausalLM.from_pretrained(model_id,  cache_dir =cache_dir, device_map="cuda" , torch_dtype=torch.bfloat16, hf_token=HF_TOKEN)#torch_dtype=torch.bfloat16,, quantization_config=bnb_config , device_map="auto")
 
 tokenizer_agent = AutoTokenizer.from_pretrained(model_id, add_eos_token =True)
 
 # Load the regulatory agent model and tokenizer from checkpoint
 model_checkpoint_dir = "GhaouiY/gemma-2-9b-it_SafeguardAI"
-reg_agent_model = AutoModelForCausalLM.from_pretrained(model_checkpoint_dir,cache_dir=cache_dir, device_map="cuda", torch_dtype=torch.bfloat16)
+reg_agent_model = AutoModelForCausalLM.from_pretrained(model_checkpoint_dir,cache_dir=cache_dir, device_map="cuda", torch_dtype=torch.bfloat16, hf_token=HF_TOKEN)
 reg_agent_tokenizer = AutoTokenizer.from_pretrained(model_checkpoint_dir)
 
 # Dragon Embedding Function Class
 class DragonEmbeddingFunction(EmbeddingFunction):
     def __init__(self, model_name='facebook/dragon-plus-context-encoder', tokenizer_name='facebook/dragon-plus-context-encoder'):
-        self.model = AutoModel.from_pretrained(model_name)
+        self.model = AutoModel.from_pretrained(model_name, hf_token=HF_TOKEN)
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name) 
 
     def __call__(self, input: Documents) -> Embeddings:

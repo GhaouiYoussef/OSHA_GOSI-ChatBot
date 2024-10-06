@@ -1,0 +1,6 @@
+torch==2.0.1
+transformers==4.31.0
+chromadb==0.3.25
+termcolor==2.3.0
+python-dotenv==1.0.0
+gradio==3.34.0

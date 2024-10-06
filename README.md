@@ -47,14 +47,24 @@ Key libraries include:
 - **Transformers**: For model fine-tuning and inference.
 - **Gradio**: For building the web-based user interface.
 
+Copy this in Terminal (For Windows):
+
+`python -m venv venv
+venv\Scripts\activate
+pip install torch
+pip install transformers
+pip install chromadb
+pip install termcolor
+pip install python-dotenv
+pip install gradio
+pip install accelerate>=0.26.0`
 ---
 
 ## **Usage**
-
-Very Soon!!
-
-The chatbot will be accessible via a local web server. You can interact with it in **English** or **Arabic** by querying any OSHA GOSI regulatory topics.
-
+`git clone https://github.com/GhaouiYoussef/OSHA_GOSI-ChatBot.git
+cd deploy
+python main-app.py`
+- PS: you need to use your hugging face token, and request access to the Gemma2 model
 ---
 
 ## **Training and Fine-Tuning**
